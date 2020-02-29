@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/94a0f12940.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Chuck Api Play</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">Chuck List</span>
+                        <br>
+                        <div class="row">
+                            <form id="chuck-form">
+                                <div>
+                                    <label for="number"> Number of Jokes</label>
+                                    <input type="number" id="number">
+                                </div>
+                                <div class="col l12">
+                                    <input type="submit" value="Get a New Joke" class="btn">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="book-list">Jokes</h5>
+                        <ul class="jokes"> </ul>
+
+                        <div class="input-field col s12">
+
+
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter">Filter Jokes</label>
+                        </div>
+                        <ul class="collection"></ul>
+                        <a href="#" class="clear-jokes btn black">Clear Jokes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
